@@ -86,7 +86,7 @@ header > p{
     padding-right: 10px;
     padding-left: 10px;
     margin: auto;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.324);
 }
 
@@ -94,12 +94,18 @@ nav{
     background-color: var(--cor5);
     padding: 10px;
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.372);
-    z-index:99;
-    top: 0;
-    min-width: 300px;
-    max-width: 1020px;
+    /* 
+    Sujestão do pokemon em deixar o MENU do tamanho do MAIN. 
     margin: auto;
     position: sticky;
+    z-index:99;
+    top: 0;
+    */
+    /*
+    O código abaixo acidionei para complementar a sujestão dele
+    min-width: 300px;
+    max-width: 1020px;
+   */ 
 }
 
 nav > a{
